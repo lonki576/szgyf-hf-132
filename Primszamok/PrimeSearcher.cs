@@ -10,7 +10,7 @@ namespace Primszamok
     {       
         public static bool primszamlalo(int szam)
         {
-            for (int i = 1; i < szam; i++)
+            for (int i = 2; i < szam; i++)
             {
                
                     if (szam % i == 0)
